@@ -1,0 +1,33 @@
+.app__navbar {
+    display: flex;
+    width: 100%;
+    padding: 15px 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #000;
+}
+
+.logo-text {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-inter);
+}
+
+.app__navbar-nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    list-style: none;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: var(--font-inter);
+    }
+}
